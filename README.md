@@ -7,7 +7,9 @@ The programming language is python, please install python environment before usi
 conda with python 3.9+ is preferred, but other python envs are also fine.  
 
 Firstly You could create an env with the command like below or using your own env:  
-''conda create --name=htest python=3.9''   
+```bash 
+conda create --name=htest python=3.9''   
+```
 
 after created it successfully, you could activate it with this command:  
 ''conda activate htest''
