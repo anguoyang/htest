@@ -12,18 +12,21 @@ Firstly You could create an env with the command like below or using your own en
 after created it successfully, you could activate it with this command:  
 'conda activate htest'
 
-and then install the necessary packages with the command: 'pip install xxx':   
+and then install the necessary packages(except for pytorch) with the command: 'pip install xxx':   
 pandas  
 scikit-learn  
-pytorch  
 torch_optimizer  
 tensorboard  
 
 or simply install all the above needed packages with the command: 'pip install -r requirements.txt'   
 
+for pytorch installation, please refer to:  
+https://pytorch.org/get-started/locally/  
+
+
 # How to run
 
-For simply testing, please rename the test excel file into "MealAnalysis(2017).xlsx", and put into the same folder with this file.   
+For privacy, I didn't upload the excel file, but for simply testing, please rename the test excel file into "MealAnalysis(2017).xlsx", and put into the same folder with this file.   
 
 ### for machine learning approach  
 
