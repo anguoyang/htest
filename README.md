@@ -40,7 +40,7 @@ run with this command:
 ```python ml.py```  
 
 you will see your accuracy, if with this line:  
-'data = data.drop(columns=["gender", "age", "height", "weight", "EER[kcal]", "P target(15%)[g]", "F target(25%)[g]", "C target(60%)[g]"])'  
+https://github.com/anguoyang/htest/blob/main/ml.py#L10  
 The accuracy will be 1.0 which means 100%, if comment this line, then accuracy is around 80%    
 
 ### for neural network approach  
