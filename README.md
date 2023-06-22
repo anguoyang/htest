@@ -16,7 +16,7 @@ after created it successfully, you could activate it with this command:
 conda activate htest
 ```
 
-and then install the necessary packages(except for pytorch) with the command: ```bashpip install xxx```:   
+and then install the necessary packages(except for pytorch) with the command: ```bash pip install xxx```:   
 pandas  
 scikit-learn  
 torch_optimizer  
