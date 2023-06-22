@@ -8,13 +8,15 @@ conda with python 3.9+ is preferred, but other python envs are also fine.
 
 Firstly You could create an env with the command like below or using your own env:  
 ```bash 
-conda create --name=htest python=3.9''   
+conda create --name=htest python=3.9   
 ```
 
 after created it successfully, you could activate it with this command:  
-''conda activate htest''
+```bash
+conda activate htest
+```
 
-and then install the necessary packages(except for pytorch) with the command: ''pip install xxx'':   
+and then install the necessary packages(except for pytorch) with the command: ```bashpip install xxx```:   
 pandas  
 scikit-learn  
 torch_optimizer  
