@@ -1,0 +1,6 @@
+pandas
+scikit-learn
+pytorch
+torch_optimizer
+tensorboard
+
