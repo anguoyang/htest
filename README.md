@@ -49,13 +49,12 @@ run with this command:
 ```python nn.py```  
 
 you will see your accuracy, if with this line:  
-'data = data.drop(columns=["gender", "age", "height", "weight", "EER[kcal]", "P target(15%)[g]", "F target(25%)[g]", "C target(60%)[g]"])'  
+https://github.com/anguoyang/htest/blob/main/nn.py#L16  
 The accuracy will be 1.0 which means 100%, if comment this line, then accuracy is around 80%   
 
 if you want to check the training history, please use this command:  
 ```tensorboard --logdir "./runs"``` 
 and open your browser and input this URL:    
-
 ```http://localhost:6006/```     
 you will see your training loss history and accuracy evaluation history.  
 
