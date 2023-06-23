@@ -54,7 +54,7 @@ you will see the training status as well as the evaluation accuracy regarding th
 
 by the way, if with this line:  
 https://github.com/anguoyang/htest/blob/main/nn.py#L16  
-The accuracy will be 1.0 which means 100%, if comment this line, then accuracy is around 80%   
+The accuracy around 1.0 which means 100%, if comment this line, then accuracy is around 80%   
 
 if you want to check the training history, please use this command:  
 ```tensorboard --logdir "./runs"``` 

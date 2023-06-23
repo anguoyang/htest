@@ -80,9 +80,6 @@ epochs = 709 # epochs number could be changed, please refer to my slides on why 
 for epoch in range(epochs):
     # Forward
     outputs = model(X_train_tensor)
-    print(outputs.shape)
-    print(y_train_tensor.shape)
-    y_train_tensor_np = y_train_tensor.to('cpu').detach().numpy().copy()
     loss = criterion(outputs, y_train_tensor)
 
     # BP and optimization

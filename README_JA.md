@@ -47,7 +47,7 @@ https://github.com/anguoyang/htest/blob/main/ml.py#L10
 
 なお、この行がある場合、  
 https://github.com/anguoyang/htest/blob/main/nn.py#L16  
-正確性は1.0（100%）となりますが、この行をコメントアウトすると、正確性は約80%程度になります。 
+正確性は1.0（100%）前後となりますが、この行をコメントアウトすると、正確性は約84%程度になります。 
 
 トレーニングの履歴を確認したい場合は、次のコマンドを使用してください:    
 ```tensorboard --logdir "./runs"```   
