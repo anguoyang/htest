@@ -27,11 +27,10 @@ torch_optimizer
 tensorboard  
 ```
 
-or simply install all the above needed packages with the command: '```pip install -r requirements.txt```   
-
 for pytorch installation, please refer to:  
 https://pytorch.org/get-started/locally/  
 
+***If there are still other modules need to be installed or other problems, please install them accordingly(follow the hints), or open an issue, thank you.***  
 
 # How to run
 
@@ -63,7 +62,7 @@ and open your browser and input this URL:
 ```http://localhost:6006/```     
 you will see your training loss history and accuracy evaluation history.  
 
-
+***Please note that we decrease the target with 1 to let it start from 0 [0,3], so in real senarios, please add it back to the output to make sure the final output range [1,4] ***
 
 
 
